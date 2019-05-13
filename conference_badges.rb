@@ -12,6 +12,7 @@ def batch_badge_creator(names)
 end 
     
 def assign_rooms(speakers)
+  speakers.
   assignments = []
   for i in 0..6 do  
     assign = "Hello, #{speakers[i]}! You'll be assigned to room #{i+1}!"
