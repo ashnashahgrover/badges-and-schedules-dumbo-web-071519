@@ -12,9 +12,9 @@ def batch_badge_creator(names)
 end 
     
 def assign_rooms(speakers)
-  speakers.
+  size = speakers.size
   assignments = []
-  for i in 0..6 do  
+  for i in 0..(size-1) do  
     assign = "Hello, #{speakers[i]}! You'll be assigned to room #{i+1}!"
     assignments.push(assign)
   end 
