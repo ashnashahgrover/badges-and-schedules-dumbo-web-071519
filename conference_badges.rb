@@ -13,4 +13,4 @@ end
     
 def assign_rooms(speakers)
   speakers.each do |assign|
-    
+    assign = "Hello, assign! You'll be assigned to room "
