@@ -12,6 +12,6 @@ def batch_badge_creator(names)
 end 
     
 def assign_rooms(speakers)
-  for i in 1..7 do 
-  speakers.each do |assign|
-    assign = "Hello, assign! You'll be assigned to room "
+  assignments = []
+  for i in 0..6 do  
+    assign = "Hello, #{speakers[i]}! You'll be assigned to room "
